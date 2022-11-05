@@ -13,13 +13,13 @@
 <script src="js/jquery.min.js"></script>
     
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
   </head>
   <body class="bg-success d-flex h-100 text-center text-bg-dark">
     
 <div class="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
-
+    <marquee id="mr-desktop" direction="left" onmouseover="this.stop()" onmouseout="this.start()""><font class="text-white">BIZI SERVICE</font> | Laptop Netbook | Komputer PC | Monitor | Proyektor | Printer | <font class="text-white">BIZI RENTAL</font> | Jasa Pengetikan | Print Dokumen | Scan Dokument | Cetak Foto</marquee>
   </header>
 
   <main class="px-3"><h1>BIZI SERVICE & RENTAL</h1>
@@ -31,14 +31,16 @@
       <h2 class="i-scroller">Rental Pengetikan</h2>
       <h2 class="i-scroller">Print | Scan | Cetak Foto</h2>
     </div>
-    <span style="font-size: medium;" class="lead fw-bold">HP : 081266097000 - 085265997871</span>
-    <p class="lead">
+    <span style="font-size: medium;" id="mr-desktop" class="lead fw-bold"><img src="img/wa.png"  height="25px" width="auto"> SERVICE 081266097000 | <img src="img/wa.png"  height="25px" width="auto"> RENTAL 085265997871</span>
+
+    <p style="margin-top: 7px;" class="lead">
       <a href="https://goo.gl/maps/PVdRdtgCYQV16fe76" style="font-size:smaller;" class="btn btn-lg btn-secondary border-white bg-white">Temukan Kami</a>
     </p>
+    <span style="font-size: medium;" class="mr-mobile lead fw-bold">SERVICE <br><img src="img/wa.png"  height="25px" width="auto"> 081266097000 <br> RENTAL <br><img src="img/wa.png"  height="25px" width="auto"> 085265997871</span>
   </main>
 
   <footer class="mt-auto text-white-50">
-    <marquee><font class="text-white">Bizi Service</font> | Laptop Netbook | Komputer PC | Monitor | Proyektor | Printer | <font class="text-white">Bizi Rental Pengetikan </font> | Jasa Pengetikan | Print Dokumen | Scan Dokument | Cetak Foto |</marquee>
+ 
   </footer>
 </div>
 

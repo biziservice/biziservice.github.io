@@ -12,6 +12,17 @@
 }
 
 
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .mr-mobile { display: block; }  /* show it on small screens */
+  #mr-desktop { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px){
+  .mr-mobile { display: none; }   /* hide it elsewhere */
+  #mr-desktop { display: block; }  /* show it on small screens */
+}
+
+
 /*
  * Base structure
  */
@@ -24,7 +35,6 @@ body {
 .cover-container {
   max-width: 42em;
 }
-
 
 /*
  * Header
